@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.javastart</groupId>
+  <artifactId>14_springstart_springJPA_jpaWithoutPersistenceXml</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>14_springstart_springJPA_jpaWithoutPersistenceXml</name>
+
+
+	<properties>
+		<maven.complier.source>10</maven.complier.source>
+		<maven.complier.target>10</maven.complier.target>
+		<spring.version>5.0.6.RELEASE</spring.version>
+		<hibernate.version>5.3.1.Final</hibernate.version>
+		<jaxb.version>2.3.0</jaxb.version>
+		<mysql.connector.version>8.0.11</mysql.connector.version>
+		<dbcp.version>2.3.0</dbcp.version>
+	</properties>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.version}</version>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>${jaxb.version}</version>
+		</dependency>
+	
+		
+	</dependencies>
+
+
+</project>
