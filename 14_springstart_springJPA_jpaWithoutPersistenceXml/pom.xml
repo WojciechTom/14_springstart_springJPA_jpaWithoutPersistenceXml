@@ -12,7 +12,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<properties>
 		<maven.complier.source>10</maven.complier.source>
 		<maven.complier.target>10</maven.complier.target>
-		<spring.version>5.0.6.RELEASE</spring.version>
+		<spring.version>5.2.22.RELEASE</spring.version>
 		<hibernate.version>5.3.1.Final</hibernate.version>
 		<jaxb.version>2.3.0</jaxb.version>
 		<mysql.connector.version>8.0.11</mysql.connector.version>
